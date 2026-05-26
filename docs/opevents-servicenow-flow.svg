@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+  <rect width="1400" height="820" fill="#f7f8fb"/>
+  <text x="700" y="60" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#1d2433">Opevents to ServiceNow Incident Automation</text>
+  <text x="700" y="96" text-anchor="middle" font-family="Arial" font-size="18" fill="#526071">Monitoring events become deduplicated incident create, update, and close actions</text>
+  <rect x="90" y="210" width="270" height="130" rx="16" fill="#ffffff" stroke="#b9c3d2" stroke-width="2"/>
+  <text x="225" y="255" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#1d2433">Opmantek Opevents</text>
+  <text x="225" y="288" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">priority, node, event,</text>
+  <text x="225" y="312" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">element, details, event ID</text>
+  <rect x="500" y="185" width="360" height="180" rx="16" fill="#ffffff" stroke="#b9c3d2" stroke-width="2"/>
+  <text x="680" y="230" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#1d2433">Event Ticket Handler</text>
+  <text x="680" y="264" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">normalizes event fields</text>
+  <text x="680" y="288" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">maps priority to ITSM impact/urgency</text>
+  <text x="680" y="312" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">builds HTML incident context</text>
+  <rect x="545" y="455" width="270" height="105" rx="16" fill="#eef2f7" stroke="#c9d1dc" stroke-width="2"/>
+  <text x="680" y="495" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#1d2433">SQLite State</text>
+  <text x="680" y="526" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">dedupe and ticket mapping</text>
+  <rect x="1035" y="210" width="270" height="130" rx="16" fill="#ffffff" stroke="#b9c3d2" stroke-width="2"/>
+  <text x="1170" y="255" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#1d2433">ServiceNow API</text>
+  <text x="1170" y="288" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">find open incidents</text>
+  <text x="1170" y="312" text-anchor="middle" font-family="Arial" font-size="15" fill="#526071">create, update, close</text>
+  <line x1="360" y1="275" x2="500" y2="275" stroke="#526071" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="860" y1="275" x2="1035" y2="275" stroke="#526071" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="680" y1="365" x2="680" y2="455" stroke="#526071" stroke-width="4" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#526071"/></marker></defs>
+  <rect x="335" y="635" width="730" height="68" rx="14" fill="#ffffff" stroke="#d7dce5" stroke-width="2"/>
+  <text x="700" y="675" text-anchor="middle" font-family="Arial" font-size="16" fill="#39465a">Public demo defaults to dry-run and uses example ServiceNow/Opevents URLs only</text>
+</svg>
